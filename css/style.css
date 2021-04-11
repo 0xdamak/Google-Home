@@ -29,6 +29,11 @@ body {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
   font-size: 13px;
+  margin: .5rem .8rem;
+}
+
+.header__menu--images {
+  margin-right: .8rem;
 }
 
 .header__menu--apps {
@@ -36,12 +41,13 @@ body {
 }
 
 .header__menu--apps svg {
+  fill: rgba(0, 0, 0, 0.87);
   height: 2.4rem;
   width: 2.4rem;
   border-radius: 50%;
 }
 
-.header img {
+.header__menu--uprofile img {
   background-size: cover;
   background-position: center;
   height: 3.2rem;

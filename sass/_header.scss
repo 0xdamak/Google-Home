@@ -9,32 +9,34 @@
             text-decoration: none;
             color: $color-primary;
             font-size: 13px;
+            margin: .5rem .8rem;
         }
 
         &--gmail {
 
         }
         &--images {
-
+            margin-right: .8rem;
         }
         &--apps{
             display: flex;
 
             svg {
+                fill: $color-primary;
                 height: 2.4rem;
                 width: 2.4rem;
                 border-radius: 50%;
         
             }
         }
-    }
-
-    
-
-    img {
-        background-size: cover;
-        background-position: center;
-        height: 3.2rem;
-        width: 3.2rem;
-    }
+        &--uprofile {
+            
+            img {
+                background-size: cover;
+                background-position: center;
+                height: 3.2rem;
+                width: 3.2rem;
+            }
+        }
+    }    
 }
