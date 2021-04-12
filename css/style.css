@@ -151,8 +151,8 @@ body {
 }
 
 .hero .search__by-voice svg {
-  height: 24px;
-  width: 24px;
+  height: 2.4rem;
+  width: 2.4rem;
 }
 
 .hero .search__by-voice:hover ~ .search__input {
