@@ -28,8 +28,9 @@ body {
 .header__menu a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
-  font-size: 13px;
+  font-size: 1.35rem;
   margin: .5rem .8rem;
+  cursor: pointer;
 }
 
 .header__menu--images {
@@ -41,16 +42,94 @@ body {
 }
 
 .header__menu--apps svg {
-  fill: rgba(0, 0, 0, 0.87);
+  fill: #5f6368;
   height: 2.4rem;
   width: 2.4rem;
   border-radius: 50%;
 }
 
-.header__menu--uprofile img {
+.header__menu--u-profile img {
   background-size: cover;
   background-position: center;
   height: 3.2rem;
   width: 3.2rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__image {
+  margin-top: 5.5rem;
+}
+
+.hero__image img {
+  height: 9.2rem;
+  width: 27.2rem;
+}
+
+.hero .search {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero .search svg {
+  fill: #9aa0a6;
+  height: 2rem;
+  width: 2rem;
+  transform: translateX(3.5rem);
+}
+
+.hero .search__input {
+  height: 4.4rem;
+  width: 55rem;
+  border: 1px solid #dfe1e5;
+  padding: 0 4rem;
+  border-radius: 2.4rem;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+  outline: none;
+  transition: all .1s;
+}
+
+.hero .search__input:hover {
+  background-color: #fff;
+  box-shadow: 0 0.1rem 0.6rem rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.hero .search__by-voice {
+  display: flex;
+  cursor: pointer;
+  transform: translateX(-7rem);
+}
+
+.hero .search__by-voice svg {
+  height: 24px;
+  width: 24px;
+}
+
+.hero .search__by-voice:hover ~ .search__input {
+  background-color: #fff;
+  box-shadow: 0 0.1rem 0.6rem rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.hero__btn {
+  text-decoration: none;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: .4rem;
+  color: #3c4043;
+  height: 3.6rem;
+  min-width: 5.4rem;
+  text-align: center;
+  cursor: pointer;
+  margin: 1.1rem .4rem;
+  padding: 1rem 1.6rem;
 }
 /*# sourceMappingURL=style.css.map */

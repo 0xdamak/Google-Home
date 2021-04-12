@@ -8,8 +8,9 @@
         a {
             text-decoration: none;
             color: $color-primary;
-            font-size: 13px;
+            font-size: 1.35rem;
             margin: .5rem .8rem;
+            cursor: pointer;
         }
 
         &--gmail {
@@ -22,14 +23,14 @@
             display: flex;
 
             svg {
-                fill: $color-primary;
+                fill: #5f6368;
                 height: 2.4rem;
                 width: 2.4rem;
                 border-radius: 50%;
         
             }
         }
-        &--uprofile {
+        &--u-profile {
             
             img {
                 background-size: cover;
