@@ -71,5 +71,28 @@
         cursor: pointer;
         margin: 1.1rem .4rem;
         padding: 1rem 1.6rem;
+
+        &:hover {
+            box-shadow: 0 .1rem rgba(0, 0, 0, .10);
+            background-color: #f8f9fa;
+            border: 1px solid #dadce0;
+            color: #202124;
+        }
+    }
+
+    &__offered-languages {
+        margin: 2rem 0;
+
+        a,
+        a:link {
+            padding: 0 .3rem;
+            text-decoration: none;
+            color: #1a0dab;
+
+            &:hover,
+            &:active {
+                text-decoration: underline;
+            }
+        }
     }
 }

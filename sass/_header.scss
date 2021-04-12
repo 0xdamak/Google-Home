@@ -11,6 +11,10 @@
             font-size: 1.35rem;
             margin: .5rem .8rem;
             cursor: pointer;
+
+            &:hover {
+                text-decoration: non;
+            }
         }
 
         &--gmail {
@@ -21,6 +25,12 @@
         }
         &--apps{
             display: flex;
+            padding: 1rem;
+
+            &:hover {
+                background-color: rgba(60, 64, 67, 0.08);
+                border-radius: 50%;
+            }
 
             svg {
                 fill: #5f6368;
