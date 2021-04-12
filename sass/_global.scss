@@ -12,6 +12,13 @@ html {
     @include respond(768px) {
         font-size: 50%;
     }
+
+    @include respond(600px) {
+        font-size: 40%;
+    }
+    @include respond(480px) {
+        font-size: 35%;
+    }
 }
 
 body {

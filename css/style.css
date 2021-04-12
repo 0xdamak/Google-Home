@@ -16,6 +16,18 @@ html {
   }
 }
 
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 30em) {
+  html {
+    font-size: 35%;
+  }
+}
+
 body {
   display: grid;
   grid-template-rows: min-content 1fr min-content;
