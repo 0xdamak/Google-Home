@@ -36,7 +36,7 @@ html {
 
 @media only screen and (max-width: 20em) {
   html {
-    font-size: 25%;
+    font-size: 26%;
   }
 }
 
@@ -183,7 +183,7 @@ body {
 }
 
 .hero__offered-languages {
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 .hero__offered-languages a,
