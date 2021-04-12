@@ -185,28 +185,11 @@ body {
   padding: 1.5rem 2rem;
 }
 
-.footer__links .center {
-  display: flex;
-  justify-content: center;
-  transform: translateY(100%);
-}
-
-.footer__links .center a {
-  text-decoration: none;
-  color: currentColor;
-  display: flex;
-  align-items: center;
-}
-
-.footer__links .center a img {
-  height: 1.2rem;
-  margin-right: .6rem;
-}
-
 .footer__links div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .footer__links div .left a {
@@ -215,8 +198,40 @@ body {
   margin: 0 1.5rem;
 }
 
+.footer__links div .left a:hover {
+  text-decoration: underline;
+}
+
+.footer__links div .center {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: currentColor;
+  display: flex;
+  align-items: center;
+}
+
+.footer__links div .center:hover {
+  text-decoration: underline;
+}
+
+.footer__links div .center img {
+  height: 1.2rem;
+  margin-right: .6rem;
+}
+
 .footer__links div .right a {
   text-decoration: none;
+  color: currentColor;
+  margin: 0 1.5rem;
+}
+
+.footer__links div .right button {
+  border: none;
   color: currentColor;
   margin: 0 1.5rem;
 }
