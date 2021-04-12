@@ -10,6 +10,12 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   display: grid;
   grid-template-rows: min-content 1fr min-content;
@@ -185,6 +191,12 @@ body {
   padding: 1.5rem 2rem;
 }
 
+@media only screen and (max-width: 75em) {
+  .footer__links {
+    padding-top: 5rem;
+  }
+}
+
 .footer__links div {
   display: flex;
   justify-content: space-between;
@@ -217,7 +229,7 @@ body {
 
 @media only screen and (max-width: 75em) {
   .footer__links div .center {
-    margin-top: -2rem;
+    margin-top: -3.7rem;
   }
 }
 
