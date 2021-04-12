@@ -71,14 +71,18 @@
                     text-decoration: none;
                     color: currentColor;
                     margin: 0 1.5rem;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
 
-                button {
-                    border: none;
-                    color: currentColor;
-                    margin: 0 1.5rem;
-                    font-size: inherit;
-                }
+                // button {
+                //     border: none;
+                //     color: currentColor;
+                //     margin: 0 1.5rem;
+                //     font-size: inherit;
+                // }
             }
         }
     }

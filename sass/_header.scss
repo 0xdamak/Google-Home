@@ -18,10 +18,17 @@
         }
 
         &--gmail {
-
+            
+            &:hover {
+                text-decoration: underline;
+            }
         }
         &--images {
             margin-right: .8rem;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
         &--apps{
             display: flex;

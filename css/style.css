@@ -69,8 +69,16 @@ body {
   text-decoration: non;
 }
 
+.header__menu--gmail:hover {
+  text-decoration: underline;
+}
+
 .header__menu--images {
   margin-right: .8rem;
+}
+
+.header__menu--images:hover {
+  text-decoration: underline;
 }
 
 .header__menu--apps {
@@ -272,10 +280,7 @@ body {
   margin: 0 1.5rem;
 }
 
-.footer__links div .right button {
-  border: none;
-  color: currentColor;
-  margin: 0 1.5rem;
-  font-size: inherit;
+.footer__links div .right a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
