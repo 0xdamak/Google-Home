@@ -45,6 +45,11 @@
                 color: currentColor;
                 display: flex;
                 align-items: center;
+
+                @include respond(1200px) {
+                    margin-top: -2rem;
+                    
+                }
     
                 &:hover {
                     text-decoration: underline;
